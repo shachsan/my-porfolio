@@ -17,3 +17,18 @@
 .social-name{
     margin-left: 10px;
 }
+
+.image{
+    width: 200px;
+    height: 230px;
+}
+
+.header-background{
+    background-image: url('../../assets/img/header-img.jpg')
+}
+
+.header-row{
+    width: 75%;
+    background-color: aquamarine;
+    text-align: center;
+}
