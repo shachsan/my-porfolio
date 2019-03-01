@@ -24,11 +24,22 @@
 }
 
 .header-background{
-    background-image: url('../../assets/img/header-img.jpg')
+    background: linear-gradient(rgba(204, 237, 255, 0.5), rgb(204, 255, 255, 0.2)), url('../../assets/img/header-img.jpg'), no-repeat;
+    /* background-image: url('../../assets/img/header-img.jpg'); */
 }
 
 .header-row{
     width: 75%;
     background-color: aquamarine;
-    text-align: center;
+    margin: 4% 12%;
+    padding: 10px;
+}
+
+.rounded{
+    border-radius: 0.75rem!important;
+}
+
+.list-group-item{
+    background-color: transparent;
+    border: none;
 }
