@@ -8,6 +8,7 @@ import { MainContainerComponent } from './main-container/main-container.componen
 import { CenterContainerComponent } from './center-container/center-container.component';
 import { RightContainerComponent } from './right-container/right-container.component';
 import { NabvarComponent } from './nabvar/nabvar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NabvarComponent } from './nabvar/nabvar.component';
     CenterContainerComponent,
     RightContainerComponent,
     NabvarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

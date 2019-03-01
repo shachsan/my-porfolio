@@ -1,0 +1,19 @@
+
+
+.profile-name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 5em;
+    border-bottom: 4px solid black;
+    padding: 10px 0px;
+    text-align: left;
+
+}
+
+.portfolio-items{
+    text-align: left;
+}
+
+.social-name{
+    margin-left: 10px;
+}
