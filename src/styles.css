@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 div{
     border: 1px solid red;
+    
+    border-radius: 0.50rem!important;
+    
+}
+
+.container-fluid{
+    margin-bottom: 20px;
+}
+body{
+    background: url('./assets/img/bg-img.jpg'), no-repeat;
 }
