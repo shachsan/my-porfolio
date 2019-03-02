@@ -8,6 +8,15 @@
     margin-bottom: 20px;
 }
 
+.project-heading{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: gold;
+    padding: 10px;
+}
 
 .project-link{
     margin-left: 5px;

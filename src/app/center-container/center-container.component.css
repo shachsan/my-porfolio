@@ -1,7 +1,6 @@
 .about, .experience, .education{
     margin-bottom: 1.2em;
     background-color: white;
-    padding: 10px;
 }
 
 .about-heading{
@@ -38,12 +37,34 @@
     padding-left: 5px;
     background-color: lightgreen;
 }
+
+.experience-detail .list-group-item{
+    background-color: lightgreen;
+    border: none;
+}
+
 .education-detail{
     padding-top: 15px;
     margin-left: 0.4px;
     margin-right: 0.4px;
     padding-left: 5px;
-    background-color: yellow;
+    background-color: lightyellow;
+}
+
+.col-edu{
+    border-right: 1px ridge silver;
+}
+
+.col-exp{
+    border-right: 1px ridge silver;
+}
+
+
+
+.education-detail .list-group-item{
+    background-color: lightyellow;
+    border: none;
+
 }
 
 
