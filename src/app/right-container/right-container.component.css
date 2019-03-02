@@ -13,6 +13,16 @@
     margin-left: 5px;
 }
 
-.skills{
+.skill-body{
     background-color: white;
+    padding: 5px 10px;
+}
+
+.logo{
+    margin: 10px 5px;
+}
+
+.skill-heading{
+    background-color: gold;
+    padding: 5px 10px;
 }

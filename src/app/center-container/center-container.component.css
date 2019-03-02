@@ -1,5 +1,50 @@
 .about, .experience, .education{
     margin-bottom: 1.2em;
     background-color: white;
+    padding: 10px;
 }
+
+.about-heading{
+    height: 35px;
+    background-color: lavender;
+    padding: 10px;
+    /* margin-bottom: 25px; */
+}
+
+.experience-heading{
+    padding: 10px;
+    height: 35px;
+    background-color: lavender;
+    /* margin-bottom: 25px; */
+}
+
+.education-heading{
+    padding: 10px;
+    height: 35px;
+    background-color: lavender;
+    /* margin-bottom: 25px; */
+}
+
+.about-detail{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: bisque;
+}
+.experience-detail{
+    padding-top: 15px;
+    margin-left: 0.4px;
+    margin-right: 0.4px;
+    padding-left: 5px;
+    background-color: lightgreen;
+}
+.education-detail{
+    padding-top: 15px;
+    margin-left: 0.4px;
+    margin-right: 0.4px;
+    padding-left: 5px;
+    background-color: yellow;
+}
+
+
 

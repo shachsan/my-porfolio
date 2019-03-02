@@ -1,0 +1,8 @@
+.navbar-default{
+    background: linear-gradient( black, darkblue)
+    /* position: fixed; */
+}
+
+.navbar-default a{
+    color: white;
+}
