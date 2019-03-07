@@ -11,6 +11,7 @@ import { NabvarComponent } from './nabvar/nabvar.component';
 import { FooterComponent } from './footer/footer.component';
 import { EmbedProjectsComponent } from './embed-projects/embed-projects.component';
 import { BlogComponent } from './blog/blog.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { BlogComponent } from './blog/blog.component';
     FooterComponent,
     EmbedProjectsComponent,
     BlogComponent,
+    DemoComponent,
   ],
   imports: [
     BrowserModule,

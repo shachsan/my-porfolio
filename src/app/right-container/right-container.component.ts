@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-right-container',
@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RightContainerComponent implements OnInit {
 
+  @Output() playDemo=new EventEmitter<string>();
+
   constructor() { }
 
   ngOnInit() {
   }
 
-  onClickDemo(){
-    alert('demo button click')
+  onClickDemo(video:string){
+    this.playDemo.emit(video);
   }
 
 }

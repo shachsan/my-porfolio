@@ -4,7 +4,7 @@
 </div>
 
 <div class="container-fluid">
-  <app-main-container *ngIf="navLinkSelected==='home'"></app-main-container>
+  <app-main-container *ngIf="navLinkSelected==='home'" [navClicked]="navClicked"></app-main-container>
   <app-blog *ngIf="navLinkSelected==='blog'"></app-blog>
 </div>
 
