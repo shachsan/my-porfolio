@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+  navLinkSelected='home';
+
+  onNavigate(navLinkSelected:string){
+    this.navLinkSelected=navLinkSelected;
+  }
 }

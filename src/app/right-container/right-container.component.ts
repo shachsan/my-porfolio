@@ -12,4 +12,8 @@ export class RightContainerComponent implements OnInit {
   ngOnInit() {
   }
 
+  onClickDemo(){
+    alert('demo button click')
+  }
+
 }

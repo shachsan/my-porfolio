@@ -9,6 +9,8 @@ import { CenterContainerComponent } from './center-container/center-container.co
 import { RightContainerComponent } from './right-container/right-container.component';
 import { NabvarComponent } from './nabvar/nabvar.component';
 import { FooterComponent } from './footer/footer.component';
+import { EmbedProjectsComponent } from './embed-projects/embed-projects.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     RightContainerComponent,
     NabvarComponent,
     FooterComponent,
+    EmbedProjectsComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,

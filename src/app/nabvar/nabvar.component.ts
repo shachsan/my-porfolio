@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-nabvar',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nabvar.component.css']
 })
 export class NabvarComponent implements OnInit {
+  @Output() navLinkSelected = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onNavLinkClickHandler(linkClicked:string){
+    this.navLinkSelected.emit(linkClicked);
   }
 
 }

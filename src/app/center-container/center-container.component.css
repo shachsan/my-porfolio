@@ -1,27 +1,27 @@
 .about, .experience, .education{
-    margin-bottom: 1.2em;
+    margin-bottom: 1.5em;
     background-color: white;
 }
 
 .about-heading{
     height: 35px;
-    background-color: lavender;
+    background-color: gold;
+    color: black;
     padding: 10px;
-    /* margin-bottom: 25px; */
 }
 
 .experience-heading{
     padding: 10px;
     height: 35px;
-    background-color: lavender;
-    /* margin-bottom: 25px; */
+    background-color: gold;
+    color: black;
 }
 
 .education-heading{
     padding: 10px;
     height: 35px;
-    background-color: lavender;
-    /* margin-bottom: 25px; */
+    background-color: gold;
+    color: black;
 }
 
 .about-detail{
