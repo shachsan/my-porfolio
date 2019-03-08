@@ -1,6 +1,7 @@
 .about, .experience, .education{
     margin-bottom: 1.5em;
     background-color: white;
+    box-shadow:10px 10px 30px grey;  
 }
 
 .about-heading{

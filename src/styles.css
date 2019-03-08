@@ -6,6 +6,12 @@
 }
 body{
     background: linear-gradient(rgba(238, 241, 243, 0.6), rgba(227, 233, 220, 0.7)), url('./assets/img/bg-img.jpg'), no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h5{
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
 }
 
 @media (max-width:670px){

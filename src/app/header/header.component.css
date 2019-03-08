@@ -1,9 +1,9 @@
 
 
 .profile-name{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 7em;
     border-bottom: 4px solid black;
     padding: 10px 0px;
     text-align: left;
@@ -49,6 +49,11 @@
     height: 230px;
 }
 
+.header-outer-div{
+    margin-top:75px; 
+   
+}
+
 .header-background{
     background: linear-gradient(rgba(204, 237, 255, 0.5), rgb(204, 255, 255, 0.2)), url('../../assets/img/header-img.jpg'), no-repeat;
     /* background-image: url('../../assets/img/header-img.jpg'); */
@@ -59,6 +64,7 @@
     background-color: aquamarine;
     margin: 4% 12%;
     padding: 10px;
+    box-shadow:20px 20px 50px 10px rgb(83, 207, 195) inset; 
 }
 
 
