@@ -23,9 +23,13 @@
     margin-right: 15px;
 }
 
-.skill-body{
+.skill-container{
     background-color: white;
     padding: 5px 10px;
+}
+
+.skill-container .row{
+    margin: 5px;
 }
 
 .logo{
@@ -36,3 +40,7 @@
     background-color: gold;
     padding: 5px 10px;
 }
+
+/* .row, .col-xs-4{
+    border: 1px solid black;
+} */

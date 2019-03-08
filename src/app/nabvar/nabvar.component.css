@@ -6,3 +6,30 @@
 .navbar-default a{
     color: white;
 }
+
+.nav span{
+    position: relative;
+    padding-bottom: 5px;
+    /* margin-bottom: 10px; */
+    /* padding: 0; */
+}
+
+.nav span::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    background-color: gold;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-out;
+}
+
+.nav span:hover:before{
+    visibility: visible;
+    left: 0;
+    transform: scaleX(1);
+}
