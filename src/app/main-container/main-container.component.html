@@ -2,7 +2,7 @@
 <div class="row main-container">
     <div class="col-md-8">
       <app-center-container *ngIf="playDemo===''"></app-center-container>
-      <app-demo *ngIf="playDemo==='auto-shift'"></app-demo>
+      <app-demo *ngIf="playDemo!==''" [demoToPlay]="playDemo"></app-demo>
       <!-- <app-blog></app-blog> -->
     </div>
 

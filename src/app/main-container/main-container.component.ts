@@ -14,7 +14,6 @@ export class MainContainerComponent implements OnInit, OnChanges{
   }
 
   ngOnInit() {
-    console.log('onInit triggered');
   }
 
   ngOnChanges(changes:SimpleChanges){
@@ -26,6 +25,7 @@ export class MainContainerComponent implements OnInit, OnChanges{
 
   onPlayDemo(demoVideo:string){
     this.playDemo=demoVideo;
+    // console.log('playDemo', this.playDemo);
   }
 
 }
