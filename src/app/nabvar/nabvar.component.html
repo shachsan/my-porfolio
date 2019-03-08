@@ -1,35 +1,65 @@
 <nav class="navbar navbar-default fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a href="#" class="navbar-brand">Sanjay's Portfolio</a>
+      <a href="#" class="navbar-brand">Sanjay Sai</a>
     </div>
-
     <ul class="nav mr-auto">
         <li class="nav-item">
           <a class="nav-link active" href="#" (click)="onNavLinkClickHandler('home')"><span>Home</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><span>Experience</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><span>Project</span></a>
-        </li>
+    
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                id="projectDropDown" aria-haspopup="true" aria-expanded="false" role="button">
+                <span>Project</span>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="projectDropDown">
+              <!--convert the menu into sub menu-->
+              <a href="#" id="autoMainMenu" class="dropdown-item nav-link dropright"> 
+                <div id="autoSubMenu" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Auto Shifts</div>
+              
+                  <div class="dropdown-menu" aria-labelledby="autoSubMenu">
+
+                      <a href="#" class="dropdown-item">Website</a>
+                      <a href="#" class="dropdown-item">Demo</a>
+                  </div>
+                
+                </a>
+
+              <a href="#" id="bookMainMenu" class="dropdown-item nav-link dropright">
+
+                  <div id="bookSubMenu" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Book Conference Room</div>
+              
+                  <div class="dropdown-menu" aria-labelledby="autoSubMenu">
+
+                      <a href="#" class="dropdown-item">Website</a>
+                      <a href="#" class="dropdown-item">Demo</a>
+                  </div>
+                </a>
+
+
+              <a href="#" id="sourceMainMenu" class="dropdown-item nav-link dropright">
+                  <div id="sourceSubMenu" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Easy Source</div>
+              
+                  <div class="dropdown-menu" aria-labelledby="autoSubMenu">
+
+                      <a href="#" class="dropdown-item">Website</a>
+                      <a href="#" class="dropdown-item">Demo</a>
+                  </div>
+                
+              </a>
+            </div>
+          </li>
         <li class="nav-item">
           <a class="nav-link" href="#" (click)="onNavLinkClickHandler('blog')"><span>Blogs</span></a>
         </li>
-        <li class="nav-item">
+         <!-- <li class="nav-item">
           <a class="nav-link" href="#"><span>Education</span></a>
-        </li>
+        </li>  -->
        
       
       </ul>
-    <!-- <ul class="nav navbar-nav">
-      <li class="active"><a href='#'>Home</a></li>
-      <li><a href="#">About me</a></li>
-      <li><a href="#">Experience</a></li>
-      <li><a href="#">Project</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Download Resume</a></li>
-    </ul> -->
   </div>
-</nav>
+</nav> 
+

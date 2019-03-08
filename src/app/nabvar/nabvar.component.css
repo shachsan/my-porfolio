@@ -7,6 +7,35 @@
     color: white;
 }
 
+.dropdown-menu{
+    background: linear-gradient( black, darkblue);
+    margin-top: -5px;
+}
+
+.dropdown-item:hover{
+    background-color: gold;
+}
+
+.dropdown-menu a:hover{
+    color: black;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+#autoMainMenu:hover>.dropdown-menu{
+    display: block;
+}
+
+#bookMainMenu:hover>.dropdown-menu{
+    display: block;
+}
+
+#sourceMainMenu:hover>.dropdown-menu{
+    display: block;
+}
+
 .nav span{
     position: relative;
     padding-bottom: 5px;

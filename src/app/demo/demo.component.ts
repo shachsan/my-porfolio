@@ -13,10 +13,12 @@ export class DemoComponent implements OnInit {
   @Input() demoToPlay:string;
 
   demoUrl={
-    'auto-shift':'https://www.youtube.com/embed/q6v8HQtlfus?rel=0&modestbranding=1&autohide=1&showinfo=0&autoplay=1',
+    'auto-shift':'https://www.youtube.com/embed/q6v8HQtlfus?rel=0&modestbranding=0&autohide=1&showinfo=0&autoplay=1',
     'book-conf':'https://www.youtube.com/embed/7ygbT22pV6c?rel=0&modestbranding=1&autohide=1&showinfo=0&autoplay=1',
     'easy-source':'https://www.youtube.com/embed/x1uVlIx_1HQ?rel=0&modestbranding=1&autohide=1&showinfo=0&autoplay=1'
   }
+
+
 
   constructor(private sanitizer: DomSanitizer) {}
   
