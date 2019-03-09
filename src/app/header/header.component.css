@@ -32,7 +32,7 @@
     height: 3px;
     left: 0;
     bottom: 0;
-    background-color: gold;
+    background-color: darkviolet;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-out;
@@ -50,7 +50,7 @@
 }
 
 .header-outer-div{
-    margin-top:75px; 
+    margin-top:55px; 
    
 }
 
@@ -79,6 +79,24 @@
     padding-bottom: 5px;
 }
 
-.list-group-item a:hover{
-    color: slateblue;
+/* .list-group-item a:hover{
+    color: 
+} */
+
+.download {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px 5px;
+    position: absolute;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    bottom: 0;
+    right: 0;
+    background-color: darkblue;
+    color: aqua;
+    text-decoration: none;
+}
+
+.download:hover{
+    color: red;
 }

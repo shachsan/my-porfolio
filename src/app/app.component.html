@@ -1,9 +1,9 @@
 <app-nabvar (navLinkSelected)="onNavigate($event)"></app-nabvar>
-<div class="container-fluid">
+<div class="container-fluid header-container">
   <app-header></app-header>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid center-container">
   <app-main-container *ngIf="navLinkSelected==='home'" [navClicked]="navClicked"></app-main-container>
   <app-blog *ngIf="navLinkSelected==='blog'"></app-blog>
   <app-demo *ngIf="navLinkSelected==='auto-shift'||navLinkSelected==='book-conf'|| navLinkSelected==='easy-source'"

@@ -1,13 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
 
-.container-fluid{
-    margin-bottom: 20px;
+.center-container{
+    margin-bottom:30px;
 }
+
+.header-container{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
 body{
     background: linear-gradient(rgba(238, 241, 243, 0.6), rgba(227, 233, 220, 0.7)), url('./assets/img/bg-img.jpg'), no-repeat;
     font-family: 'Open Sans', sans-serif;
-}
+    overflow: auto !important;
+    max-height: 100% !important;
+} 
 
 h1, h2, h5{
     font-family: 'Caveat', cursive;
@@ -16,6 +24,19 @@ h1, h2, h5{
 
 @media (max-width:670px){
     .header-background{
-        padding-top: 75px;
+        padding-top: 55px;
+        padding-left: 5px;
+        padding-right: 5px;
+
     }
 }
+
+@media (max-width:470px){
+    .header-background{
+        font-size: 0.8em;
+    }
+    .download{
+        margin-top: 20px;
+    }
+}
+

@@ -7,6 +7,14 @@
     color: white;
 }
 
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: red;
+    padding: 0px 10px;
+}
+
 .dropdown-menu{
     background: linear-gradient( black, darkblue);
     margin-top: -5px;
@@ -62,3 +70,10 @@
     left: 0;
     transform: scaleX(1);
 }
+
+/* .download a{
+    padding: 0 10px;
+    margin-top: 10px;
+    height: 30px;
+    background-color: maroon;
+} */
