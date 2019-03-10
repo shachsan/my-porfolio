@@ -7,7 +7,6 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class NabvarComponent implements OnInit {
   @Output() navLinkSelected = new EventEmitter<string>();
-  // @Output() 
 
   constructor() { }
 

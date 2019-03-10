@@ -25,7 +25,6 @@ export class MainContainerComponent implements OnInit, OnChanges{
 
   onPlayDemo(demoVideo:string){
     this.playDemo=demoVideo;
-    // console.log('playDemo', this.playDemo);
   }
 
 }
