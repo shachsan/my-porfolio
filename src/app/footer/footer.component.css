@@ -21,6 +21,11 @@
     font-size: 1.5em;
 }
 
+.hobbies{
+    margin-left: -10px; 
+    margin-right: -10px;
+}
+
 .email span{
     margin-left: 5px;
 }
@@ -45,7 +50,7 @@
     display: inline-block;
     margin: 2px 5px;
     padding-left: 6px;
-    width: 100%;
+    width: 95%;
     background-color: maroon;
 }
 
